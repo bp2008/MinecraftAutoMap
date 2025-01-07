@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE Blocks [
+	<!ELEMENT Blocks (Block+)>
+
+	<!ELEMENT Block EMPTY>
+	<!ATTLIST Block
+    Id CDATA #REQUIRED
+    Name CDATA #IMPLIED
+    R CDATA #REQUIRED
+    G CDATA #REQUIRED
+    B CDATA #REQUIRED
+    A CDATA "255"
+  >
+]>
+
+<Blocks>
+
+	<Block Id="-1" Name="Default" R="255" G="0" B="255" />
+
+	<Block Id="0" Name="Air" R="0" G="0" B="0" A="0"/>
+	<Block Id="1" Name="Stone" R="120" G="120" B="120" />
+	<Block Id="2" Name="Grass" R="117" G="176" B="73" />
+	<Block Id="3" Name="Dirt" R="134" G="96" B="67" />
+	<Block Id="4" Name="Cobblestone" R="115" G="115" B="115" />
+	<Block Id="5" Name="Wood" R="157" G="128" B="79" />
+	<Block Id="6" Name="Sapling" R="120" G="120" B="120" A="0" />
+	<Block Id="7" Name="Adminium" R="84" G="84" B="84" />
+	<Block Id="8" Name="Flowing Water" R="38" G="92" B="255" A="51" />
+	<Block Id="9" Name="Water" R="38" G="92" B="255" A="51" />
+	<Block Id="10" Name="Flowing Lava" R="255" G="90" B="0" />
+	<Block Id="11" Name="Lava" R="255" G="90" B="0" />
+	<Block Id="12" Name="Sand" R="218" G="210" B="158" />
+	<Block Id="13" Name="Gravel" R="136" G="126" B="126" />
+	<Block Id="14" Name="Gold ore" R="143" G="140" B="125" />
+	<Block Id="15" Name="Iron ore" R="136" G="130" B="127" />
+	<Block Id="16" Name="Coal ore" R="115" G="115" B="115" />
+	<Block Id="17" Name="Log" R="102" G="81" B="51" />
+	<Block Id="18" Name="Leaves" R="60" G="192" B="41" A="100" />
+	<Block Id="20" Name="Glass" R="255" G="255" B="255" A="64" />
+	<Block Id="21" Name="Lapis Lazuli Ore" R="45" G="45" B="200" />
+	<Block Id="22" Name="Lapis Lazuli Block" R="0" G="0" B="255" />
+	<Block Id="23" Name="Dispenser" R="96" G="96" B="96" />
+	<Block Id="24" Name="Sandstone" R="225" G="220" B="165" />
+	<Block Id="25" Name="Note Block" R="91" G="51" B="13" />
+	<Block Id="26" Name="Bed" R="255" G="20" B="20" />
+	<Block Id="27" Name="Powered Rail" R="255" G="100" B="20" />
+	<Block Id="28" Name="Detector Rail" R="220" G="100" B="30" />
+	<Block Id="29" Name="Piston Sticky Base" R="90" G="140" B="90" />
+	<Block Id="30" Name="Cobweb" R="160" G="160" B="160" />
+	<Block Id="31" Name="Tall Grass" R="40" G="200" B="20" />
+	<Block Id="32" Name="Dead Shrubs" R="160" G="100" B="0" />
+	<Block Id="33" Name="Piston Base" R="90" G="90" B="90" />
+	<Block Id="34" Name="Piston Extension" R="90" G="90" B="90" />
+	<Block Id="35" Name="Cloth" R="222" G="222" B="222" />
+	<Block Id="37" Name="Yellow Flower" R="221" G="229" B="2" A="127"/>
+	<Block Id="38" Name="Red Rose" R="209" G="6" B="9" A="127"/>
+	<Block Id="39" Name="Brown Mushroom" R="204" G="153" B="120" A="127"/>
+	<Block Id="40" Name="Red Mushroom" R="254" G="42" B="42" A="127"/>
+	<Block Id="41" Name="Gold" R="232" G="245" B="46" />
+	<Block Id="42" Name="Iron" R="191" G="191" B="191" />
+	<Block Id="43" Name="Stairs" R="200" G="200" B="200" />
+	<Block Id="44" Name="Step" R="200" G="200" B="200" />
+	<Block Id="45" Name="Brick" R="170" G="86" B="62" />
+	<Block Id="47" Name="Bookcase" R="91" G="51" B="13" />
+	<Block Id="48" Name="Mossy Stone" R="115" G="145" B="115" />
+	<Block Id="49" Name="Obsidian" R="26" G="11" B="43" />
+	<Block Id="50" Name="Torch" R="245" G="220" B="50" />
+	<Block Id="51" Name="Fire" R="255" G="170" B="30" />
+	<Block Id="52" Name="Mobspawner" R="67" G="124" B="131" />
+	<Block Id="53" Name="Wood Stairs" R="157" G="128" B="79" />
+	<Block Id="54" Name="Chest" R="125" G="91" B="38" />
+	<Block Id="55" Name="Redstone Wires" R="181" G="140" B="64" A="32" />
+	<Block Id="56" Name="Diamond ore" R="129" G="140" B="143" />
+	<Block Id="57" Name="Diamond" R="45" G="166" B="152" />
+	<Block Id="58" Name="Workbench" R="114" G="88" B="56" />
+	<Block Id="59" Name="Crops" R="146" G="192" B="0" />
+	<Block Id="60" Name="Soil" R="95" G="58" B="30" />
+	<Block Id="61" Name="Furnace" R="96" G="96" B="96" />
+	<Block Id="62" Name="Lit furnace" R="96" G="96" B="96" />
+	<Block Id="63" Name="Sign" R="111" G="91" B="54" />
+	<Block Id="64" Name="Door" R="136" G="109" B="67" />
+	<Block Id="65" Name="Ladder" R="181" G="140" B="64" A="32" />
+	<Block Id="66" Name="Rails" R="150" G="134" B="102" A="180" />
+	<Block Id="67" Name="Stairs" R="115" G="115" B="115" />
+	<Block Id="68" Name="Wall Sign" R="157" G="128" B="79" A="127"/>
+	<Block Id="69" Name="Lever" R="157" G="128" B="79" A="64"/>
+	<Block Id="70" Name="Stone Pressure plate" R="115" G="115" B="115" />
+	<Block Id="71" Name="Iron door" R="191" G="191" B="191" />
+	<Block Id="72" Name="Wooden Pressure plate" R="157" G="128" B="79" />
+	<Block Id="73" Name="Redstone" R="131" G="107" B="107" />
+	<Block Id="74" Name="Lit Redstone" R="131" G="107" B="107" />
+	<Block Id="75" Name="Redstone torch" R="181" G="140" B="64" A="32" />
+	<Block Id="76" Name="Lit redstone torch" R="255" G="0" B="0" A="200" />
+	<Block Id="77" Name="Stone Button" R="115" G="115" B="115" A="64"/>
+	<Block Id="78" Name="Surface snow" R="255" G="255" B="255" />
+	<Block Id="79" Name="Ice" R="83" G="113" B="163" A="51" />
+	<Block Id="80" Name="Snow" R="250" G="250" B="250" />
+	<Block Id="81" Name="Cactus" R="25" G="120" B="25" />
+	<Block Id="82" Name="Clay" R="217" G="217" B="217" />
+	<Block Id="83" Name="Reed" R="190" G="194" B="145" />
+	<Block Id="84" Name="Jukebox" R="91" G="51" B="13" />
+	<Block Id="85" Name="Fence" R="157" G="128" B="79" />
+	<Block Id="86" Name="Pumpkin" R="223" G="142" B="16" />
+	<Block Id="87" Name="Bloodstone" R="163" G="94" B="92" />
+	<Block Id="88" Name="Slow sand" R="100" G="78" B="67" />
+	<Block Id="89" Name="Lightstone" R="189" G="141" B="69" />
+	<Block Id="90" Name="Portal" R="200" G="20" B="240" />
+	<Block Id="91" Name="Jack-O-Lantern" R="243" G="156" B="20" />
+	<Block Id="92" Name="Cake" R="255" G="220" B="220" />
+	<Block Id="93" Name="Redstone Repeater Off" R="181" G="140" B="64" />
+	<Block Id="94" Name="Redstone Repeater On" R="255" G="0" B="0" />
+	<Block Id="95" Name="Locked Chest" R="125" G="91" B="38" />
+	<Block Id="96" Name="Trapdoor" R="136" G="109" B="67" />
+	<Block Id="97" Name="Hidden Silverfish" R="120" G="120" B="120" />
+	<Block Id="98" Name="Stone Brick" R="120" G="120" B="120" />
+	<Block Id="99" Name="Huge Red Mushroom" R="170" G="35" B="33" />
+	<Block Id="100" Name="Huge Brown Mushroom" R="130" G="97" B="76" />
+	<Block Id="101" Name="Iron Bars" R="104" G="103" B="103" A="220" />
+	<Block Id="102" Name="Glass Pane" R="255" G="255" B="255" A="64" />
+	<Block Id="103" Name="Melon" R="184" G="180" B="39" />
+	<Block Id="104" Name="Pumpkin Stem" R="147" G="204" B="100" A="120" />
+	<Block Id="105" Name="Melon Stem" R="147" G="204" B="100" A="120" />
+	<Block Id="106" Name="Vines" R="47" G="110" B="19" A="180" />
+	<Block Id="107" Name="Fence Gate" R="105" G="86" B="49" A="220" />
+	<Block Id="108" Name="Brick Stairs" R="118" G="63" B="49" />
+	<Block Id="109" Name="Stone Brick Stairs" R="115" G="115" B="115" />
+	<Block Id="110" Name="Mycelium" R="106" G="92" B="94" />
+	<Block Id="111" Name="Lily Pad" R="118" G="191" B="91" />
+	<Block Id="112" Name="Nether Brick" R="54" G="13" B="17" />
+	<Block Id="113" Name="Nether Brick Fence" R="54" G="13" B="17" A="128" />
+	<Block Id="114" Name="Nether Brick Stairs" R="54" G="13" B="17" />
+	<Block Id="115" Name="Nether Wart" R="128" G="6" B="3" />
+	<Block Id="116" Name="Enchantment Table" R="66" G="234" B="206" />
+	<Block Id="117" Name="Brewing Stand" R="91" G="91" B="91" />
+	<Block Id="118" Name="Cauldron" R="50" G="50" B="50" />
+	<Block Id="119" Name="End Portal" R="0" G="0" B="20" />
+	<Block Id="120" Name="End Portal Frame" R="45" G="94" B="83" />
+	<Block Id="121" Name="End Stone" R="218" G="236" B="168" />
+	<Block Id="122" Name="Dragon Egg" R="37" G="0" B="44" />
+	<Block Id="123" Name="Redstone Lamp Off" R="128" G="30" B="10" />
+	<Block Id="124" Name="Redstone Lamp On" R="230" G="60" B="20" />
+	<Block Id="125" Name="Wooden Double Slab" R="157" G="128" B="79" />
+	<Block Id="126" Name="Wooden Slab" R="157" G="128" B="79" />
+	<Block Id="127" Name="Cocoa Plant" R="170" G="128" B="79" />
+	<Block Id="128" Name="Sandstone Stairs" R="200" G="195" B="140" />
+	<Block Id="129" Name="Emerald Ore" R="10" G="200" B="20" />
+	<Block Id="130" Name="Ender Chest" R="30" G="6" B="2" />
+	<Block Id="131" Name="Tripwire Hook" R="240" G="90" B="50" />
+	<Block Id="132" Name="Tripwire" R="230" G="230" B="230" />
+	<Block Id="133" Name="Block of Emerald" R="30" G="230" B="50" />
+	<Block Id="134" Name="Spruce Wood Stairs" R="100" G="80" B="45" />
+	<Block Id="135" Name="Birch Wood Stairs" R="177" G="148" B="95" />
+	<Block Id="136" Name="Jungle Wood Stairs" R="127" G="108" B="65" />
+
+
+</Blocks>

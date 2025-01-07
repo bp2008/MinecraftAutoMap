@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{E024B322-A22E-4634-977B-8469B75A9E22}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MinecraftAM</RootNamespace>
+    <AssemblyName>MinecraftAM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaCrossPlatformGroupID>57464ccc-9b80-43b6-a4d2-64b0c76d920a</XnaCrossPlatformGroupID>
+    <ApplicationIcon>AutoMapLogo200.ico</ApplicationIcon>
+    <Thumbnail>AutoMapLogo200.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <XnaUpgrade>
+    </XnaUpgrade>
+    <XnaOutputType>Game</XnaOutputType>
+    <XnaProfile>Reach</XnaProfile>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>True</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip">
+      <HintPath>.\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AMSettings.cs" />
+    <Compile Include="ColorHelper.cs" />
+    <Compile Include="ErrorDump.cs" />
+    <Compile Include="FixedStaticMap.cs" />
+    <Compile Include="MinecraftAM\ItemDrawing.cs" />
+    <Compile Include="MinecraftAM\TextureBuilder.cs" />
+    <Compile Include="MinecraftAM\XPOrb.cs" />
+    <Compile Include="PatchDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatchDialog.Designer.cs">
+      <DependentUpon>PatchDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProtoUI\Box.cs" />
+    <Compile Include="ProtoUI\Button.cs" />
+    <Compile Include="ProtoUI\Theme.cs" />
+    <Compile Include="ProtoUI\VPosition.cs" />
+    <Compile Include="ProtoUI\HPosition.cs" />
+    <Compile Include="ProtoUI\GUI.cs" />
+    <Compile Include="MinecraftAM\Bicycle.cs" />
+    <Compile Include="MinecraftAM\CoordinateTranslator.cs" />
+    <Compile Include="InputBox\InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputBox\InputBox.Designer.cs">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinecraftAM\AutoUpdate\UpdateChecker.cs" />
+    <Compile Include="MinecraftAM\AutoUpdate\UpdateInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MinecraftAM\AutoUpdate\UpdateInfoForm.Designer.cs">
+      <DependentUpon>UpdateInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinecraftAM\Block.cs" />
+    <Compile Include="MinecraftAM\buffer.cs" />
+    <Compile Include="MinecraftAM\Chunk.cs" />
+    <Compile Include="MinecraftAM\ChunkManager.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="InputManager.cs" />
+    <Compile Include="MinecraftAM\Compass.cs" />
+    <Compile Include="MinecraftAM\HolidayManager.cs" />
+    <Compile Include="MinecraftAM\HPTimer.cs" />
+    <Compile Include="MinecraftAM\LightingManager.cs" />
+    <Compile Include="MinecraftAM\MapCollector.cs" />
+    <Compile Include="MinecraftAM\MapFlattener.cs" />
+    <Compile Include="MinecraftAM\McrLoader.cs" />
+    <Compile Include="MinecraftAM\McrReader\Chunk.cs" />
+    <Compile Include="MinecraftAM\McrReader\Region.cs" />
+    <Compile Include="MinecraftAM\McrReader\World.cs" />
+    <Compile Include="MinecraftAM\MCTile.cs" />
+    <Compile Include="MinecraftAM\MAM2DLayer.cs" />
+    <Compile Include="MinecraftAM\OreHeight.cs" />
+    <Compile Include="MinecraftAM\RawChunkData.cs" />
+    <Compile Include="MinecraftAM\Shitlist.cs" />
+    <Compile Include="MinecraftAM\Trail.cs" />
+    <Compile Include="MinecraftAM\TransparentBlockCounter.cs" />
+    <Compile Include="MoreInformationMultiplayerData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoreInformationMultiplayerData.Designer.cs">
+      <DependentUpon>MoreInformationMultiplayerData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinecraftAM\PowerToys.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="MapLabel.cs" />
+    <Compile Include="MinecraftAM\TgaWriter.cs" />
+    <Compile Include="ProtoUI\Label.cs" />
+    <Compile Include="ProtoUI\Line.cs" />
+    <Compile Include="ProtoUI\Panel.cs" />
+    <Compile Include="ProtoUI\Shape.cs" />
+    <Compile Include="ProtoUI\Widget.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="WaypointEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaypointEditor.Designer.cs">
+      <DependentUpon>WaypointEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaypointManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AutoMapLogo200.ico" />
+    <Content Include="AutoMapLogo200.png" />
+    <Content Include="BlockColors.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="chest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="chest_ender.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="chest_trapped.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ionic.Zip.dll" />
+    <Content Include="license.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Readme.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content\Content.contentproj">
+      <Project>b7227cc5-93e2-4076-9992-9538fb5e6a14</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.3.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataSource\DataSource.csproj">
+      <Project>{BB6B78E9-F453-4F44-B30D-63395D657AFC}</Project>
+      <Name>DataSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="Content\MinecraftAMContent.contentproj">
+      <Project>{B7227CC5-93E2-4076-9992-9538FB5E6A14}</Project>
+      <Name>MinecraftAMContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InputBox\InputBox.resx">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinecraftAM\AutoUpdate\UpdateInfoForm.resx">
+      <DependentUpon>UpdateInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoreInformationMultiplayerData.resx">
+      <DependentUpon>MoreInformationMultiplayerData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatchDialog.resx">
+      <DependentUpon>PatchDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaypointEditor.resx">
+      <DependentUpon>WaypointEditor.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PatchMinecraft.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

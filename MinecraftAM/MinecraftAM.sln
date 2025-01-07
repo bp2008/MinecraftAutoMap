@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftAM", "MinecraftAM\MinecraftAM.csproj", "{E024B322-A22E-4634-977B-8469B75A9E22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSource", "DataSource\DataSource.csproj", "{BB6B78E9-F453-4F44-B30D-63395D657AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftAMContent", "MinecraftAM\Content\MinecraftAMContent.contentproj", "{B7227CC5-93E2-4076-9992-9538FB5E6A14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3EFC97C5-6783-44B9-A2CB-0F6695E1CE14}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://emporium:8080/tfs/bp2010
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DataSource\\DataSource.csproj
+		SccProjectName1 = DataSource
+		SccLocalPath1 = DataSource
+		SccProjectUniqueName2 = MinecraftAM\\Content\\MinecraftAMContent.contentproj
+		SccProjectName2 = MinecraftAM/Content
+		SccLocalPath2 = MinecraftAM\\Content
+		SccProjectUniqueName3 = MinecraftAM\\MinecraftAM.csproj
+		SccProjectName3 = MinecraftAM
+		SccLocalPath3 = MinecraftAM
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Debug|x86.ActiveCfg = Debug|x86
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Debug|x86.Build.0 = Debug|x86
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Release|Any CPU.ActiveCfg = Release|x86
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Release|x86.ActiveCfg = Release|x86
+		{E024B322-A22E-4634-977B-8469B75A9E22}.Release|x86.Build.0 = Release|x86
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BB6B78E9-F453-4F44-B30D-63395D657AFC}.Release|x86.ActiveCfg = Release|Any CPU
+		{B7227CC5-93E2-4076-9992-9538FB5E6A14}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B7227CC5-93E2-4076-9992-9538FB5E6A14}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B7227CC5-93E2-4076-9992-9538FB5E6A14}.Debug|x86.ActiveCfg = Debug|x86
+		{B7227CC5-93E2-4076-9992-9538FB5E6A14}.Release|Any CPU.ActiveCfg = Release|x86
+		{B7227CC5-93E2-4076-9992-9538FB5E6A14}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B7227CC5-93E2-4076-9992-9538FB5E6A14}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>34, 17</value>
+  </metadata>
+  <data name="label14.ToolTip" xml:space="preserve">
+    <value>No blocks will be drawn that are higher than this many blocks above your head.
+In other words, this is the max camera height relative to the player.
+
+If this is lower than [Max Ceiling Height], then [Max Ceiling Height] will be 
+effectively equal to the Virtual Ceiling.</value>
+  </data>
+  <data name="nudOCH.ToolTip" xml:space="preserve">
+    <value>No blocks will be drawn that are higher than this many blocks above your head.
+In other words, this is the max camera height relative to the player.
+
+If this is lower than [Max Ceiling Height], then [Max Ceiling Height] will be 
+effectively equal to the Virtual Ceiling.</value>
+  </data>
+  <data name="txtCGC.ToolTip" xml:space="preserve">
+    <value>The color to draw in place of a solid column of non-transparent blocks.  This is commonly seen in caves. Format: "R,G,B,A" where R = Red, G = Green, B = Blue, A = Alpha (Opacity).  Valid values are between 0 and 255 inclusively.</value>
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value>The color to draw in place of a solid column of non-transparent blocks.  This is commonly seen in caves. Format: "R,G,B,A" where R = Red, G = Green, B = Blue, A = Alpha (Opacity).  Valid values are between 0 and 255 inclusively.</value>
+  </data>
+  <data name="nudDroppedItemVisibility.ToolTip" xml:space="preserve">
+    <value>0 = Items are not visible.
+1 = Items are visible, but are never labeled.
+2 = Items are visible and are labeled when at a different altitude from the player or when the stack size is 2 or greater.
+3 = Items are visible and are labeled with name, stack size, and altitude when this is different from the player.</value>
+  </data>
+  <data name="label31.ToolTip" xml:space="preserve">
+    <value>0 = Items are not visible.
+1 = Items are visible, but are never labeled.
+2 = Items are visible and are labeled when at a different altitude from the player or when the stack size is 2 or greater.
+3 = Items are visible and are labeled with name, stack size, and altitude when this is different from the player.</value>
+  </data>
+  <data name="btnReparseWorldMap.ToolTip" xml:space="preserve">
+    <value>** Disabled until further notice due to map format change **
+
+Only singleplayer worlds can have the map regenerated 
+from the world save.
+
+NOTE: This operation will not clear the current world map.
+It will only modify the current world map using the data 
+from the current world's region files.  
+
+If the map is incorrect or corrupted, it is recommended 
+that you close AutoMap, then go to your AutoMap folder 
+and delete this world's .png file and this world's origin.txt file.</value>
+  </data>
+  <data name="btnParseCustomWorldMap.ToolTip" xml:space="preserve">
+    <value>** Disabled until further notice due to map format change **
+
+Only singleplayer worlds can have the map regenerated 
+from the world save.
+
+NOTE: This operation will not clear the current world map.
+It will only modify the current world map using the data 
+from the current world's region files.  
+
+If the map is incorrect or corrupted, it is recommended 
+that you close AutoMap, then go to your AutoMap folder 
+and delete this world's .png file and this world's origin.txt file.</value>
+  </data>
+  <data name="cbMinecraftCoordinateMode.ToolTip" xml:space="preserve">
+    <value>If this box is checked, coordinates are shown in X,Y,Z format as seen in Minecraft's debug text (F3).
+
+If this box is unchecked, coordinates are shown in AutoMap's proprietary X,Y,Z format which is used internally.
+
+(if you have the Waypoint Editor open, please close it before changing this setting to avoid confusion)</value>
+  </data>
+  <data name="rbSM3G.ToolTip" xml:space="preserve">
+    <value>High speed and reliability.
+Fixed file size of about 16.5 Mb.
+Max mappable area: 32768 x 32768.
+Lower image quality than 2nd generation at some map sizes.
+Low-detail image stored in Map Data directory.</value>
+  </data>
+  <data name="rbSM2G.ToolTip" xml:space="preserve">
+    <value>Low speed and reliability.
+File size grows rapidly (as high as several gigabytes per map)
+Max mappable area: 65000 x 65000 (in theory.  In practice, this is much lower.)
+Higher image quality than 3rd generation at some map sizes.
+A full-detail map image is stored in Map Data directory.</value>
+  </data>
+  <data name="nudMaxTransparentLiquids.ToolTip" xml:space="preserve">
+    <value>Draws liquid as a partially transparent texture up to this deep, increasing 
+realism and allowing you to see things just below the surface of water.
+
+This is a HUGE performance hit in areas with lots of water or lava!  
+Set to 0 to improve performance!</value>
+  </data>
+  <data name="label48.ToolTip" xml:space="preserve">
+    <value>Draws liquid as a partially transparent texture up to this deep, increasing 
+realism and allowing you to see things just below the surface of water.
+
+This is a HUGE performance hit in areas with lots of water or lava!  
+Set to 0 to improve performance!</value>
+  </data>
+  <data name="label49.ToolTip" xml:space="preserve">
+    <value>Draws liquid as a partially transparent texture up to this deep, increasing 
+realism and allowing you to see things just below the surface of water.
+
+This is a HUGE performance hit in areas with lots of water or lava!  
+Set to 0 to improve performance!</value>
+  </data>
+  <metadata name="openFileDialogSMPMap.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>143, 19</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Teleportation Auto-Detection Protection affects multiplayer only. It disallows teleportation further than 9.5 blocks at a time and imposes a limit 9.5 blocks traveled per second via teleporting. This should make it less likely (but NOT IMPOSSIBLE) that you will be auto-kicked for moving too quickly.
+
+WARNING:  This is not a license to be stupid.  If you are caught using AM's teleport feature, even infrequently over short distances, you will likely be reported and BANNED by a server admin for hacking!
+
+NOTE:  This setting was not tested against any 3rd party cheat-detection plugins, only that built-in to the official Minecraft Server.</value>
+  </data>
+  <metadata name="timerHalfSecond.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>326, 19</value>
+  </metadata>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>468, 19</value>
+  </metadata>
+</root>
